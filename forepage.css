@@ -1,0 +1,45 @@
+/***
+ * Snippet;
+ */
+
+/* Redefine BootStrap */
+.btn-success,
+.btn-success:hover,
+.btn-success:focus {
+  background: #30a300;
+}
+
+/***
+ * ForePage;
+ */
+
+body {
+	background: #e1c894;
+}
+
+.forepage-container {
+  max-width: 42em;
+}
+
+/***
+ * Header;
+ */
+
+.nav-forehead .nav-link {
+	color: #764;
+	border-bottom: .10rem solid transparent;
+}
+
+.nav-forehead .nav-link:hover,
+.nav-forehead .nav-link:focus {
+	color: #000;
+	border-bottom-color: #30a300;;
+}
+
+.nav-forehead .nav-link + .nav-link {
+	margin-left: 1.5rem;
+}
+
+.nav-forehead .active {
+	border-bottom-color: #764;
+}
